@@ -35,6 +35,7 @@ body {
   background: url(./likeheart.svg) no-repeat 10% center;
   transition: 0.7s;
   span {
+    box-sizing: border-box;
     margin: 1.5em;
   }
 }
@@ -84,4 +85,23 @@ body {
   margin: 7px;
   width: 30px;
   height: 30px;
+}
+
+.star-rating-blank {
+  fill: none;
+  width: 24px;
+  height: 24px;
+}
+.star-rating-filled {
+  width: 24px;
+  height: 24px;
+}
+.star-rating-filled path {
+  d: path(
+    "M10 15.25L3.8125 19L5.45312 11.9688L0.015625 7.23438L7.1875 6.625L10 0.015625L12.8125 6.625L19.9844 7.23438L14.5469 11.9688L16.1875 19L10 15.25Z"
+  );
+}
+
+.rating-container {
+  display: flex;
 }

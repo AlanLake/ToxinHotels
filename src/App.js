@@ -1,11 +1,11 @@
 import "./App.scss";
-import Like from './components/Likebutton'
+import Rating from './components/StarsRating'
 
 function App() {
   return (
     <div className="App">
-      <Like>
-      </Like>
+      <Rating>
+      </Rating>
     </div>
   );
 }
