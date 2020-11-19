@@ -105,3 +105,67 @@ body {
 .rating-container {
   display: flex;
 }
+.button_purple {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+  border: none;
+  width: 99px;
+  height: 44px;
+  color: white;
+  @extend %h3;
+}
+.button_purple_faded {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  opacity: 0.5;
+  border-radius: 22px;
+  border: none;
+  width: 99px;
+  height: 44px;
+  color: white;
+  @extend %h3;
+}
+.button_blank {
+  background: white;
+  width: 99px;
+  height: 44px;
+  @extend %h3;
+  color: #bc9cff;
+  border: 2px solid #bc9cff;
+  border-radius: 22px;
+}
+.button_blank_faded {
+  background: white;
+  width: 99px;
+  height: 44px;
+  @extend %h3;
+  color: #bc9cff;
+  border: 2px solid #bc9cff;
+  opacity: 0.5;
+  border-radius: 22px;
+}
+.button_wide {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+  width: 320px;
+  height: 44px;
+  color: white;
+  @extend %h3;
+  border: none;
+}
+.button_borderless {
+  width: 61px;
+  height: 15px;
+  background-color: white;
+  color: #bc9cff;
+  border: none;
+  @extend %h3;
+}
+.button_borderless_faded {
+  width: 61px;
+  height: 15px;
+  background-color: white;
+  color: rgba(31, 32, 65, 0.5);
+
+  border: none;
+  @extend %h3;
+}
