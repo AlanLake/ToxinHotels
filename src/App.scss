@@ -1,0 +1,85 @@
+@import "./colorsandtypes";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @extend %body;
+}
+.textField {
+  width: 320px;
+  height: 44px;
+  color: $darkShade25;
+  border: 1px solid $darkShade25;
+  border-radius: 4px;
+}
+.textField:hover,
+:active,
+:focus {
+  border: 1px solid $darkShade50;
+}
+.subTextField {
+  width: 267px;
+  height: 44px;
+  border: 1px solid $darkShade25;
+  border-radius: 4px;
+  background: url(./arrowright.svg) no-repeat 95% center;
+}
+.like-button {
+  width: 40px;
+  height: 20px;
+  border: 1px solid $darkShade25;
+  border-radius: 10px;
+  background: url(./likeheart.svg) no-repeat 10% center;
+  span {
+    margin: 1.5em;
+  }
+}
+.like-button-active {
+  width: 40px;
+  height: 20px;
+  background: url(./likeheartact.svg) no-repeat 10% center;
+  border-radius: 10px;
+  color: #bc9cff;
+  border: 1px solid #bc9cff;
+  span {
+    margin: 1.5rem;
+  }
+}
+.dd-nav {
+  @extend %h3;
+  border: 1px solid $darkShade25;
+  border-top: none;
+  border-radius: 4px;
+  width: 318px;
+  transition: 0.5s all;
+}
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-item__name {
+  padding: 13px 0px 7px 15px;
+}
+.dd-button {
+  background-color: white;
+  width: 320px;
+  height: 44px;
+  border: 1px solid $darkShade25;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: left;
+  color: $darkShade75;
+  background: url(./rectangle.svg) no-repeat 95% center;
+}
+.counter__button {
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 22px;
+  margin: 7px;
+  width: 30px;
+  height: 30px;
+}
