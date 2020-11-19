@@ -33,6 +33,7 @@ body {
   border: 1px solid $darkShade25;
   border-radius: 10px;
   background: url(./likeheart.svg) no-repeat 10% center;
+  transition: 0.7s;
   span {
     margin: 1.5em;
   }
@@ -44,8 +45,9 @@ body {
   border-radius: 10px;
   color: #bc9cff;
   border: 1px solid #bc9cff;
+  transition: 0.7s;
   span {
-    margin: 1.5rem;
+    margin: 1.5em;
   }
 }
 .dd-nav {
